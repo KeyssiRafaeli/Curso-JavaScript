@@ -1,5 +1,5 @@
 # Curso JavaScript
- Conteúdo estudado no curso de JS (CursoEmVideo)
+ Conteúdo estudado no curso de JS
 
 Este repositório tem como objetivo mostrar o que foi praticado em aula, e alguns códigos basicos adicionais feitos para testar se realmente entendi o que estava sendo passado no curso.
 Esse foi o primeiro curso que eu fiz de JS, e ele é bem simples, apenas ensinando os conceitos básicos da linguagem. Mas que não deixam de ser fundamentais para meu inicio com essa ferramenta poderosa. 
