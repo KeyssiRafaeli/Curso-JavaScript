@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores Aritméticos</title>
+</head>
+<body>
+
+       <h3>Resultados:</h3>
+
+<script>
+
+var nome = prompt ('Olá! Qual seu nome?')
+alert('Seja bem vindo(a) ' + nome + ' ! vamos fazer contas Aritméticas. (Todos os resultados aparecerão no final.)')
+var n1adição = Number(prompt(nome + ' vamos começar por adição. Digite um numero:'))
+var n2adição = Number(prompt('Digite outro numero:'))
+var resultadosoma = n1adição + n2adição
+document.write ('O resultado da soma é: ' + resultadosoma )
+
+/*fim da primeira conta*/
+
+var n1subtração = Number(prompt('Isso mesmo! Vamos fazer agora a subtração. Digite um numero:'))
+var n2subtração = Number(prompt('Digite outro numero: '))
+var resultadosub = n1subtração - n2subtração
+document.write ('<br> O resultado da subtração é: ' + resultadosub )
+
+/*fim da segunda conta*/
+
+var n1mult = Number(prompt('Agora a multiplicação. Digite um numero:'))
+var n2mult = Number(prompt('Digite outro numero: '))
+var resultadomult = n1mult * n2mult
+document.write ('<br> O resultado da subtração é: ' + resultadomult )
+
+/*fim da terceira conta*/
+
+var n1divreal = Number(prompt('Divisão real. Digite um numero:'))
+var n2divreal = Number(prompt('Digite outro numero: '))
+var resultadomult = n1divreal / n2divreal
+document.write ('<br> O resultado da divisão real é: ' + resultadomult )
+
+/*fim da quarta conta*/
+
+var n1divint = Number(prompt('Calma estamos quase acabando! Divisão inteira. Digite um numero:'))
+var n2divint = Number(prompt('Digite outro numero: '))
+var resultadivint = n1divint % n2divint
+document.write ('<br> O resultado da divisão inteira é: ' + resultadivint )
+
+/*fim da quinta conta*/
+
+var n1pot = Number(prompt('E por fim, potenciação. Digite um numero:'))
+var n2pot = Number(prompt('Digite outro numero: '))
+var resultadopot = n1pot ** n2pot
+document.write ('<br> O resultado da potenciação é: ' + resultadopot )
+
+/*fim da sexta conta*/
+
+document.write(' <p><strong> Muito obrigada pela paciencia! :) <strong>')
+</script>
+</body>
+</html>
